@@ -7,3 +7,10 @@ def hello(request):
         request,
         'hello/hello.html'
     )
+
+
+def home(request):
+    return render(
+        request,
+        'hello/home.html'
+    )
